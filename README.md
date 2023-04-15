@@ -70,19 +70,15 @@ Please follow the below instructions to run this branch in your machine:
    ```sh
    cd react-redux-chatting-application
    ```
-4. Checkout/switch to branch 9.1
-   ```sh
-   git checkout 9.1
-   ```
-5. Install dependencies
+4. Install dependencies
    ```sh
    npm i
    ```
-6. Install VS Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) & start the server.
+5. Install VS Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) & start the server.
    ```sh
    npm start
    ```
-7. Your app should be available in http://localhost:3000
+6. Your app should be available in http://localhost:3000
 
 <br>
 
