@@ -1,11 +1,17 @@
 import { useState } from "react";
-import { useAddMessageMutation } from "../../features/messages/messagesApi";
+// import { useAddMessageMutation } from "../../features/messages/messagesApi";
 import isValidateEmail from "../../utils/isValidEmail";
+import { useGetUsersQuery } from "../../features/users/usersApi";
+import Error from '../ui/Error';
 
 export default function Modal({ open, control }) {
     const [to, setTo] = useState("");
     const [message, setMessage] = useState("");
-    const [addMessage, isLoading, isError, error] = useAddMessageMutation();
+    const [userCheck, setUserCheck] = useState(false);
+    // const [addMessage, {}] = useAddMessageMutation();
+    const { data: participant } = useGetUsersQuery(to, {
+        skip: !userCheck
+    });
 
     const debounceHandler = (fn, delay) => {
         let timeoutId;
@@ -20,10 +26,9 @@ export default function Modal({ open, control }) {
 
     const doSearch = (value) => {
         if (isValidateEmail(value)) {
-            console.log("Email is valid");
+            setUserCheck(true);
+            setTo(value);
         }
-
-        setTo(value);
     }
 
     const handleSearch = debounceHandler(doSearch, 500);
@@ -56,7 +61,6 @@ export default function Modal({ open, control }) {
                                     required
                                     className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm"
                                     placeholder="Send to"
-                                    value={to}
                                     onChange={(e) => handleSearch(e.target.value)}
                                 />
                             </div>
@@ -79,7 +83,6 @@ export default function Modal({ open, control }) {
 
                         <div>
                             <button
-                                disabled={isLoading}
                                 type="submit"
                                 className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-violet-600 hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500"
                             >
@@ -87,7 +90,7 @@ export default function Modal({ open, control }) {
                             </button>
                         </div>
 
-                        {/* <Error message="There was an error" /> */}
+                        {participant?.length === 0 && <Error message="This User does not exist" />}
                     </form>
                 </div>
             </>
