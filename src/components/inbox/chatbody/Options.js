@@ -28,7 +28,6 @@ export default function Options({ info }) {
                 timestamp: new Date().getTime(),
             }
         });
-
     }
 
     return (
