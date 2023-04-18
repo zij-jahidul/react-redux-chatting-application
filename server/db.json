@@ -36,14 +36,32 @@
         },
         {
           "email": "sumit@learnwithsumit.com",
-          "password": "$2a$10$ISVAIiYWQxug8GZHQoXv2u73DsjL5wGeQVaCjQXvG1m3K0p4Ze6QO",
           "name": "Sumit Saha",
           "id": 1
         }
       ],
-      "message": "123",
-      "timestamp": 1681813328128,
+      "message": "15",
+      "timestamp": 1681816543732,
       "id": 1
+    },
+    {
+      "participants": "sumit@learnwithsumit.com-jahidul@gmail.com",
+      "users": [
+        {
+          "email": "sumit@learnwithsumit.com",
+          "name": "Sumit Saha",
+          "id": 1
+        },
+        {
+          "email": "jahidul@gmail.com",
+          "password": "$2a$10$ISVAIiYWQxug8GZHQoXv2u73DsjL5wGeQVaCjQXvG1m3K0p4Ze6QO",
+          "name": "Jahidul",
+          "id": 4
+        }
+      ],
+      "message": "dfas",
+      "timestamp": 1681816506732,
+      "id": 2
     }
   ],
   "messages": [
@@ -56,46 +74,45 @@
       },
       "receiver": {
         "email": "saad@learnwithsumit.com",
-        "password": "$2a$10$DVGOgchZrtvb1w6Pj.B0D.DXmHmoTsdy3oXfwF.02kE/pzJ7jyHqy",
+        "password": "$2a$10$ISVAIiYWQxug8GZHQoXv2u73DsjL5wGeQVaCjQXvG1m3K0p4Ze6QO",
         "name": "Saad Hasan",
         "id": 3
       },
-      "message": "Hello",
-      "timestamp": 1662628206226,
+      "message": "12",
+      "timestamp": 1681816470948,
       "id": 1
     },
     {
-      "conversationId": 1,
+      "conversationId": 2,
       "sender": {
         "email": "sumit@learnwithsumit.com",
         "name": "Sumit Saha",
         "id": 1
       },
       "receiver": {
-        "email": "saad@learnwithsumit.com",
-        "password": "$2a$10$DVGOgchZrtvb1w6Pj.B0D.DXmHmoTsdy3oXfwF.02kE/pzJ7jyHqy",
-        "name": "Saad Hasan",
-        "id": 3
+        "email": "jahidul@gmail.com",
+        "password": "$2a$10$ISVAIiYWQxug8GZHQoXv2u73DsjL5wGeQVaCjQXvG1m3K0p4Ze6QO",
+        "name": "Jahidul",
+        "id": 4
       },
-      "message": "Bye",
-      "timestamp": 1662628224667,
+      "message": "dfas",
+      "timestamp": 1681816506732,
       "id": 2
     },
     {
       "conversationId": 1,
       "sender": {
+        "email": "saad@learnwithsumit.com",
+        "name": "Saad Hasan",
+        "id": 3
+      },
+      "receiver": {
         "email": "sumit@learnwithsumit.com",
         "name": "Sumit Saha",
         "id": 1
       },
-      "receiver": {
-        "email": "saad@learnwithsumit.com",
-        "password": "$2a$10$DVGOgchZrtvb1w6Pj.B0D.DXmHmoTsdy3oXfwF.02kE/pzJ7jyHqy",
-        "name": "Saad Hasan",
-        "id": 3
-      },
-      "message": "Hello hi bye bye",
-      "timestamp": 1662631611651,
+      "message": "13",
+      "timestamp": 1681816529452,
       "id": 3
     },
     {
@@ -107,129 +124,28 @@
       },
       "receiver": {
         "email": "saad@learnwithsumit.com",
-        "password": "$2a$10$DVGOgchZrtvb1w6Pj.B0D.DXmHmoTsdy3oXfwF.02kE/pzJ7jyHqy",
         "name": "Saad Hasan",
         "id": 3
       },
-      "message": "Hello",
-      "timestamp": 1662631817658,
+      "message": "14",
+      "timestamp": 1681816533150,
       "id": 4
     },
     {
       "conversationId": 1,
       "sender": {
+        "email": "saad@learnwithsumit.com",
+        "name": "Saad Hasan",
+        "id": 3
+      },
+      "receiver": {
         "email": "sumit@learnwithsumit.com",
         "name": "Sumit Saha",
         "id": 1
       },
-      "receiver": {
-        "email": "saad@learnwithsumit.com",
-        "password": "$2a$10$DVGOgchZrtvb1w6Pj.B0D.DXmHmoTsdy3oXfwF.02kE/pzJ7jyHqy",
-        "name": "Saad Hasan",
-        "id": 3
-      },
-      "message": "test",
-      "timestamp": 1662631825864,
+      "message": "15",
+      "timestamp": 1681816543732,
       "id": 5
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "receiver": {
-        "email": "saad@learnwithsumit.com",
-        "password": "$2a$10$DVGOgchZrtvb1w6Pj.B0D.DXmHmoTsdy3oXfwF.02kE/pzJ7jyHqy",
-        "name": "Saad Hasan",
-        "id": 3
-      },
-      "message": "Lorem ipsum dolor sit amet ... hello world Bangladesh",
-      "timestamp": 1662631959796,
-      "id": 6
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "receiver": {
-        "email": "saad@learnwithsumit.com",
-        "password": "$2a$10$DVGOgchZrtvb1w6Pj.B0D.DXmHmoTsdy3oXfwF.02kE/pzJ7jyHqy",
-        "name": "Saad Hasan",
-        "id": 3
-      },
-      "message": "Hello world Redux Bangladesh",
-      "timestamp": 1662631986753,
-      "id": 7
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "saad@learnwithsumit.com",
-        "name": "Saad Hasan",
-        "id": 3
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "Hi ",
-      "timestamp": 1681812633649,
-      "id": 8
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "saad@learnwithsumit.com",
-        "name": "Saad Hasan",
-        "id": 3
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "Hello",
-      "timestamp": 1681812901152,
-      "id": 9
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "saad@learnwithsumit.com",
-        "name": "Saad Hasan",
-        "id": 3
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "Hello",
-      "timestamp": 1681813308305,
-      "id": 10
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "saad@learnwithsumit.com",
-        "name": "Saad Hasan",
-        "id": 3
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$ISVAIiYWQxug8GZHQoXv2u73DsjL5wGeQVaCjQXvG1m3K0p4Ze6QO",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "123",
-      "timestamp": 1681813328128,
-      "id": 11
     }
   ]
 }

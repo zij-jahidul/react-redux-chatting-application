@@ -27,9 +27,10 @@ export default function ChatItems() {
             const { name, email: partnerEmail } = getPartnerInfo(conversation.users, email);
 
             return (
-                <li key={id}>
+                <li key={conversation.id}>
                     <Link to={`/inbox/${id}`}>
                         <ChatItem
+                            key={id}
                             avatar={gravatarUrl(partnerEmail, {
                                 size: 80
                             })}
