@@ -21,85 +21,31 @@
   ],
   "conversations": [
     {
-      "participants": "akash@learnwithsumit.com-sumit@learnwithsumit.com",
+      "participants": "jahidul@gmail.com-akash@learnwithsumit.com",
       "users": [
+        {
+          "email": "jahidul@gmail.com",
+          "name": "Jahidul",
+          "id": 3
+        },
         {
           "email": "akash@learnwithsumit.com",
           "name": "Akash Ahmed",
           "id": 2
-        },
-        {
-          "email": "sumit@learnwithsumit.com",
-          "password": "$2a$10$Icz6MUrgKEznhZkUzMoOze0VJFoGW6Ig12Iu6qAxB2YbPrET59/ke",
-          "name": "Sumit Saha",
-          "id": 1
         }
       ],
-      "message": "asdfdas",
-      "timestamp": 1681763308528,
+      "message": "Hi",
+      "timestamp": 1681806893046,
       "id": 1
-    },
-    {
-      "participants": "sumit@learnwithsumit.com-jahidul@gmail.com",
-      "users": [
-        {
-          "email": "sumit@learnwithsumit.com",
-          "name": "Sumit Saha",
-          "id": 1
-        },
-        {
-          "email": "jahidul@gmail.com",
-          "password": "$2a$10$GcC..L2SDJutCr61xoaKq.sLPQp6jhY4LGJBwJ94kNyEAMTtAkq.W",
-          "name": "Jahidul",
-          "id": 3
-        }
-      ],
-      "message": "Hah paichi",
-      "timestamp": 1681766104774,
-      "id": 2
     }
   ],
   "messages": [
     {
-      "conversationId": 2,
+      "conversationId": 1,
       "sender": {
-        "email": "jahidul@gmail.com",
-        "name": "Jahidul",
-        "id": 3
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$Icz6MUrgKEznhZkUzMoOze0VJFoGW6Ig12Iu6qAxB2YbPrET59/ke",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "Hello vai",
-      "timestamp": 1681765968924,
-      "id": 1
-    },
-    {
-      "conversationId": 2,
-      "sender": {
-        "email": "jahidul@gmail.com",
-        "name": "Jahidul",
-        "id": 3
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$Icz6MUrgKEznhZkUzMoOze0VJFoGW6Ig12Iu6qAxB2YbPrET59/ke",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "Vai new nen",
-      "timestamp": 1681766016996,
-      "id": 2
-    },
-    {
-      "conversationId": 2,
-      "sender": {
-        "email": "sumit@learnwithsumit.com",
-        "name": "Sumit Saha",
-        "id": 1
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
       },
       "receiver": {
         "email": "jahidul@gmail.com",
@@ -107,8 +53,41 @@
         "name": "Jahidul",
         "id": 3
       },
-      "message": "Hah paichi",
-      "timestamp": 1681766104774,
+      "message": "Hi Boss",
+      "timestamp": 1681806822731,
+      "id": 1
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "jahidul@gmail.com",
+        "password": "$2a$10$GcC..L2SDJutCr61xoaKq.sLPQp6jhY4LGJBwJ94kNyEAMTtAkq.W",
+        "name": "Jahidul",
+        "id": 3
+      },
+      "message": "Yes Bolo",
+      "timestamp": 1681806830067,
+      "id": 2
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "jahidul@gmail.com",
+        "name": "Jahidul",
+        "id": 3
+      },
+      "receiver": {
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hi",
+      "timestamp": 1681806893046,
       "id": 3
     }
   ]
