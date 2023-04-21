@@ -59,11 +59,14 @@ export const conversationsApi = apiSlice.injectEndpoints({
             async onQueryStarted({ email }, { queryFulfilled, dispatch }) {
                 try {
                     const conversations = await queryFulfilled;
-                    if (conversations?.length > 0) {
+                    if (conversations?.data?.length > 0) {
                         // update conversations cache pessimistically start
                         dispatch(
                             apiSlice.util.updateQueryData("getConversations", email, (draft) => {
-                                return [...draft, ...conversations];
+                                return {
+                                    data: [...draft.data, ...conversations.data],
+                                    totalCount: Number(draft.totalCount),
+                                };
                             })
                         );
                         // update conversations cache pessimistically end
